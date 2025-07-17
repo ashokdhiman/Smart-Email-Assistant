@@ -63,7 +63,7 @@ function injectButton() {
             button.disabled = true;
 
             const emailContent = getEmailContent();
-            const response = await fetch('http://localhost:8080/api/email/generate', {
+            const response = await fetch('https://backendsamrtemailassistant-production.up.railway.app/api/email/generate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
