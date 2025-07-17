@@ -17,7 +17,10 @@ public class CorsConfig {
                         .allowedOrigins(
                                 "http://localhost:5173",
                                 "https://mail.google.com",
-                                "chrome-extension://*"
+                                "chrome-extension://*",
+                                "https://smart-email-assistant-ten.vercel.app",
+                                "https://frontend-smart-email-assistant.vercel.app/",
+                                "https://brilliant-platypus-7d21f6.netlify.app/"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
